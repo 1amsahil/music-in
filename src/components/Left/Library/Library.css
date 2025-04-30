@@ -1,0 +1,35 @@
+.library
+{
+    min-height: 50vh;
+    margin-top: 10px;
+}
+
+.library-header
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.library-header img
+{
+    width: 20px;
+}
+
+.song-list
+{
+    margin: 10px;
+
+    height: 60vh;
+    
+    overflow: scroll;
+    overflow-x: hidden;
+
+    border: 5px solid rgb(40, 40, 40);
+    border-radius: 5px;
+}
+
